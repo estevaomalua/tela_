@@ -1,0 +1,65 @@
+@charset "UTF-8";
+ /*
+    Media quirie para tablete
+*/
+@media screen and (min-width:768px) and (max-width:992px){
+    main{
+     background-image: linear-gradient(to bottom,#a56a2e,#2c2823);  
+    }
+    section.login{
+        height: 230px;
+        width: 75vw;
+    }
+    /*
+    Media quirie para tablete
+    estilizando o cadastro do tablet
+*/
+    section.login > div.cadastro{
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-image: url(../imagens/back-phone.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    section.login > div.cadastro > h1{
+        display: none;
+    }
+    section.login > div.formulario{
+        width: 60%;
+    }
+}
+/*
+    Media quirie para desktop e telas muito grande
+*/
+@media screen and (min-width:992px){
+    main{
+     background-image: linear-gradient(to bottom,#a56a2e,#2c2823);  
+    }
+    section.login{
+        height: 250px;
+        width: 80vw;
+    }
+     section.login > div.formulario{
+       margin-right: 50%;
+        
+        
+    }
+    section.login > div.cadastro{
+        background-image: url(../imagens/back-phone.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    section.login > div.cadastro > h1{
+        display: none;
+    }
+    section.login > div.formulario{
+        height: 100%;
+    }
+    
+}

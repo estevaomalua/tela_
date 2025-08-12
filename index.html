@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mideas-quirie.css">
+    <title>Tela de login</title>
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="cadastro">
+                <h1>Login</h1>
+            </div>
+            <div class="formulario">
+                <form action="formulario.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="Email" id="iemail" autocomplete="email" required
+                         placeholder="Sua senha...">
+                         <label for="iemail">Email</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">lock</span>
+                        <input type="password" name="Senha" id="isenha" autocomplete="new-password" placeholder="Sua senha...">
+                        <label for="isenha">Senha</label>
+                    </div>
+                        <input type="submit" value="Enviar">
+                    <a class="botao"href="#" target="_blank" >Esqueceu a senha?</a>
+                </form>
+            </div>
+        </section>
+    </main>   
+</body>
+</html>
